@@ -1,0 +1,61 @@
+body{
+  font-family: Avenir;
+  font-size: 14px;
+}
+ul{
+  list-style-type: none;
+}
+h4{
+  margin: 15px 0;
+}
+.avt{
+  margin-right: 10px;
+  float: left;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.container{
+  display: flex;
+}
+.item{
+  width: 50%;
+  margin-right: 20px;
+}
+.main{
+  width: 70%;
+  margin-right: 20px;
+}
+.sub{
+  width: 30%;
+  margin-right: 20px;
+}
+.item:last-child{
+  margin-right: 0;
+}
+.per-info{
+  text-align: center;
+}
+.per-info li{
+  margin-top: 10px;
+}
+.title{
+  border-bottom: solid 2px #168DC7;
+  padding: 0 20px;
+}
+.group{
+  margin: 20px 0;
+}
+.color{
+  color: #168DC7;
+}
+.component{
+  border-left: double #168DC7;
+  padding-left: 10px;
+}
+.pad{
+  padding-left: 10px;
+}
+.padding{
+  padding-left: 21px;
+}

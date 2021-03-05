@@ -1,0 +1,11 @@
+.container{
+  display: flex;
+}
+.item{
+  background-color: blue;
+  height: 100px;
+  flex-grow: 1;
+}
+.item + .item{
+  margin-left: 2%;
+}
